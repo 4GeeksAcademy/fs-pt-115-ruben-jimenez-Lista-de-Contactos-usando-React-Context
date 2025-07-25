@@ -50,7 +50,7 @@ export const FormCreate = () => {
             </div>
             <div className="d-flex justify-content-between gap-2">
                 <Link to={"/"}>
-                    <button type="submit" className="btn btn-secondary">😇Cancelar</button>
+                    <button className="btn btn-secondary">😇Cancelar</button>
                 </Link>
                 <button type="submit" className="btn btn-danger">😈Crear Contacto</button>
 

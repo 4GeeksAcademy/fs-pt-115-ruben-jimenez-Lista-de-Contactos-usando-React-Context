@@ -31,7 +31,7 @@ export const FormUpdate = () => {
     useEffect(() => {
         getContactApi()
     }, [])// para que se ejecute una sola vez al ejecutar la pagina
-    useEffect(() => { setUpdateContact(contact) }, [contact])
+    useEffect(() => { setUpdateContact(contact) }, [contact])//setea update de contact cada vez que contact sufre un cambio.
 
 
     const handleChange = (e) => {
